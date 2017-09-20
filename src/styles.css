@@ -1,0 +1,130 @@
+.app-header {
+  height: 100px;
+  background-color: aliceblue;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.filterPanel {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Styles for currency selector START*/
+
+.filterPanel .baseCurrencySelectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.filterPanel .baseCurrencySelectContainer .baseCurrencyTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.filterPanel .baseCurrencySelectContainer .currencySelector {
+  width: 10rem;
+}
+
+.selectOption {
+  text-align: center;
+}
+
+/* Styles for currency selector END*/
+
+/* Styles for amount input START */
+
+.amountToConvertContainer {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.amountToConvertContainer .amountToConvertTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.amountToConvertContainer .amountInput {
+  height: 34px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Styles for amount input END */
+
+/* Styles for datepicker START*/
+
+.datePickerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.datePickerContainer .datePickerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.datepicker {
+  height: 34px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Styles for datepicker END*/
+
+.currencyContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.currencyItem {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.currencyItem .header {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.currencyItem .content {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
